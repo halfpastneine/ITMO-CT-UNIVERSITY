@@ -10,6 +10,7 @@
 * *Term 2*
 	* [Algorithms labs](term2/algo-labs/)
 	* [Discrete maths labs](term2/dm-labs)
-	* [Java-prog](term2/paradigms)
+	* [Paradigms](term2/paradigms)
+	* [C/Cpp Labs](term2/cpp-labs)
 
 
