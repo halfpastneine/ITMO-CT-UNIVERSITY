@@ -13,4 +13,9 @@
 	* [Paradigms](term2/paradigms)
 	* [C/Cpp Labs](term2/cpp-labs)
 
+### 2 year
+* *Term 3*
+	* [Algorithms labs](term3/algo-labs/)
+	* [Discrete maths labs](term3/dm-labs)
+	* [Web course](term3/web) 
 

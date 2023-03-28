@@ -1,0 +1,242 @@
+:root {
+    font-size: 16px;
+    font-family: Verdana, sans-serif;
+    color: rgb(34, 34, 34);
+
+    --border-color: rgb(185, 185, 185);
+    --boder: 1px solid var(--border-color);
+    --border-radius: 6px;
+    --caption-color: #3B5998;
+    --gray-color: #F5F5F5;
+    --pad: 0.25rem;
+}
+
+html {
+    min-width: 800px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+header {
+    position: relative;
+}
+
+header .languages {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+header .enter-or-register-box {
+    position: absolute;
+    top: calc(24px + 0.5rem);
+    right: 0;
+}
+
+header nav {
+    border: var(--boder);
+    border-radius: var(--border-radius);
+    margin: 0.5rem 0 2rem 0;
+}
+
+header nav ul {
+    padding: 0;
+    margin: 1rem;
+}
+
+header nav ul li {
+    display: inline;
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li .underline{
+    /*text-decoration: underline;*/
+    border-bottom: 3px solid midnightblue;
+    padding: 0 0 2px 0;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: black;
+    font-family: Arial, sans-serif;
+    margin-right: 1rem;
+}
+
+.middle {
+    display: flow-root;
+}
+
+aside {
+    float: right;
+    width: 20rem;
+}
+
+aside section {
+    border: var(--boder);
+    border-top-left-radius: var(--border-radius);
+    border-top-right-radius: var(--border-radius);
+    margin-bottom: 1rem;
+}
+
+aside section .header {
+    border-bottom: var(--boder);
+    padding: 0.25rem;
+    font-weight: bold;
+    color: var(--caption-color);
+}
+
+aside section .header:before {
+    content: "→ ";
+    font-size: 1.1rem;
+}
+
+aside section .body {
+    padding: 0.25rem;
+}
+
+aside section .footer {
+    border-top: var(--boder);
+    padding: 0.25rem;
+    text-align: right;
+    font-size: 0.8rem;
+}
+
+aside section .footer a:after {
+    content: " →";
+}
+
+main {
+    margin-right: 21rem;
+}
+
+main .user {
+    border: var(--boder);
+    border-radius: var(--border-radius);
+    padding-bottom: 10px;
+}
+
+
+main .user a {
+    padding-left: 0.5rem;
+    font-size: 2rem;
+}
+
+main .title {
+    /*padding-top: 10px;*/
+    color: mediumblue;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+main .information {
+    color: darkgray;
+}
+
+main p {
+    padding-left: 1rem;
+    border-left: 3px solid lightgray;
+}
+
+
+main .user img {
+    float: right;
+    height: 110px;
+    position: relative;
+    top: 10px;
+}
+
+table {
+    background-color: var(--gray-color);
+    border: gray;
+    border: 1px solid var(--gray-color);
+    border-radius: var(--border-radius);
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+table tr:nth-child(odd){
+    background-color: var(--gray-color);
+    padding: var(--pad);
+}
+
+table tr:nth-child(even){
+    background-color: white;
+    padding: var(--pad)
+}
+
+div .arr a{
+    text-decoration: none;
+}
+div .arr .arrow2 {
+    color: gray;
+    font-size: 2rem;
+}
+
+div .arr .arrow1 {
+    color: blue;
+    font-size: 2rem;
+}
+
+footer {
+    margin-top: 3rem;
+    padding-top: 1rem;
+    border-top: var(--boder);
+    text-align: center;
+}
+
+main .attachment {
+    list-style-image: url("../img/paperclip-16x16.png");
+    color: gray;
+    padding-left: 1.5rem;
+}
+
+main .footer {
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    padding: 0;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+tr td {
+    padding: var(--pad);
+}
+
+.left {
+    /*position: relative;*/
+    /*top: 0.8rem;*/
+    /*left: 8px;*/
+    vertical-align: middle;
+
+}
+
+tr {
+    background-color: lightgray;
+}
+
+img[alt="Vote Up"] {
+    /*position: relative;*/
+    /*top: 0.9rem;*/
+    vertical-align: middle;
+}
+
+img[alt="Vote Down"] {
+    /*position: relative;*/
+    /*top: 0.82rem;*/
+    vertical-align: middle;
+}
+
+.positive-score {
+    font-weight: bold;
+    color: green;
+    position: relative;
+    /*top: 0.5rem;*/
+    vertical-align: middle;
+    font-size: 1.1rem;
+}
